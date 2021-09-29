@@ -11,7 +11,6 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import com.example.finalproject.R
-import java.util.regex.Pattern
 
 class LoginActivity : AppCompatActivity(),TextWatcher {
     lateinit var loginEmail: EditText

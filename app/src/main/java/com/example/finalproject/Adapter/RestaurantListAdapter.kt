@@ -35,7 +35,8 @@ class RestaurantListAdapter(
         Navigation.findNavController(restaurantsListFragment).navigate(action)
     }
         holder.restaurantMapDir.setOnClickListener {
-            Navigation.findNavController(restaurantsListFragment).navigate(R.id.restaurantListToMap)
+            var action = RestaurantsListFragmentDirections.restaurantListToMap(list.restaurant_lat,list.restaurant_long,list.name)
+            Navigation.findNavController(restaurantsListFragment).navigate(action)
         }
 
     }

@@ -8,7 +8,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.finalproject.Model.ProductData
-import com.example.finalproject.Model.RestaurantListData
 import com.example.finalproject.R
 
 class RestaurantProfileProductsAdapter(var products:List<ProductData>,var restaurantProfile:View):RecyclerView.Adapter<RestaurantProfileProductsAdapter.ViewHolder>(){

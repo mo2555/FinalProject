@@ -11,10 +11,8 @@ import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.finalproject.Adapter.RestaurantListAdapter
 import com.example.finalproject.Adapter.RestaurantProfileProductsAdapter
 import com.example.finalproject.R
 import com.example.finalproject.ViewModel.MyViewModel

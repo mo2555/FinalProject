@@ -12,7 +12,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.finalproject.Adapter.RestaurantListAdapter
 import com.example.finalproject.R
-import com.example.finalproject.UI.Activity.MainActivity
 import com.example.finalproject.ViewModel.MyViewModel
 
 class RestaurantsListFragment : Fragment() {
